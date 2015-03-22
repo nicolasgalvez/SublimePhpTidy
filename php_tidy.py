@@ -27,7 +27,7 @@ class PhpTidyCommand(sublime_plugin.TextCommand):
 
             # path to temp file
             tmpfile = '/tmp/phptidy-sublime-buffer.php'
-            phppath = '/usr/bin/php'
+            phppath = '/opt/lampp/bin/php'
 
             # set different paths for php and temp file on windows
             if sublime.platform() == 'windows':
