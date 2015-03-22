@@ -3,5 +3,8 @@
    "filetypes": [".php", ".module", ".inc"],
 
    //Selected Tidy Type (phptidy, wp)
-   "tidytype": "wp"
+   "tidytype": "wp",
+
+   //Path to PHP excecutable.
+   "phppath": "/opt/lampp/bin/php"
 }
